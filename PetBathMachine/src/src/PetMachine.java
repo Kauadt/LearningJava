@@ -55,6 +55,7 @@ public class PetMachine {
         }
 
         this.pet = pet;
+        System.out.println("O Pet " + pet.getName() + " foi colocado na máquina");
     }
 
     public void removePet(){

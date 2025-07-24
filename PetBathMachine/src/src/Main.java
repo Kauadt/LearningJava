@@ -8,7 +8,7 @@ public class Main {
     private final static PetMachine petMachine = new PetMachine();
 
     public static void main(String[] args) {
-
+        scanner.useDelimiter("\\n");
         var option = -1;
 
         do{
@@ -74,7 +74,6 @@ public class Main {
         }
          var pet = new Pet(name);
          petMachine.setPet(pet);
-        System.out.println("O Pet " + pet.getName() + " foi colocado na máquina");
     }
 
 }
