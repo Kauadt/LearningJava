@@ -1,4 +1,5 @@
-package src;
+import src.Pet;
+import src.PetMachine;
 
 import java.util.Scanner;
 
