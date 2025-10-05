@@ -27,6 +27,7 @@ public class ExemploSerializacao {
         }
     }
 
+
     public static void main(String[] args) {
         List<Contato> listaContatos = new ArrayList<>(
                 Arrays.asList(
